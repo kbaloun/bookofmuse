@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit yours — Book of Muse</title>
+<meta name="description" content="Submit an achievement, an idea, or a template/automation to the Use Muse community. Submissions are reviewed and validated before anything is published.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Book of <span>Muse</span></a>
+    <nav>
+      <a href="index.html">The Book</a>
+      <a href="community.html">Community</a>
+      <a href="templates.html">Templates &amp; Automations</a>
+      <a href="submit.html">Submit Yours</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Submit yours</h1>
+  <p>Did your Muse save you real money, recover something, finish the parked project — or did you invent a
+  use the book hasn't thought of? Tell us. The best submissions join the community showcase, the templates
+  library, and future editions of the book.</p>
+
+  <div class="notice">
+    <strong>Before you submit — the review promise.</strong>
+    Submissions are <strong>received, never auto-published</strong>. Every submission is reviewed before
+    anything appears on this site. Ideas are vetted for quality. Achievements are checked for specifics.
+    <strong>Scripts, templates, and automations are security-validated</strong> — what they do, what they
+    access, what they send, what credentials they touch — and for security we accept no new script onto
+    the site without that validation. Submitting does not guarantee publication.
+  </div>
+
+  <!--
+    FORM BACKEND — see DEPLOY.md.
+    Set SUBMIT_ENDPOINT in submit.js to the live submissions endpoint at deploy time.
+    Until then the form explains itself instead of silently failing.
+  -->
+  <form id="submit-form" novalidate>
+    <label for="f-type">What are you submitting?</label>
+    <select id="f-type" name="type" required>
+      <option value="achievement">Achievement — something my Muse did for me</option>
+      <option value="idea">Idea — a use or improvement to share</option>
+      <option value="template">Template or Automation — a recipe/script to share (security-validated before posting)</option>
+    </select>
+
+    <label for="f-name">Your name</label>
+    <input type="text" id="f-name" name="name" required autocomplete="name">
+
+    <label for="f-email">Contact email</label>
+    <input type="email" id="f-email" name="email" required autocomplete="email">
+
+    <label for="f-title">Title — one line</label>
+    <input type="text" id="f-title" name="title" required maxlength="120"
+           placeholder="e.g. My Muse cut my phone bill by $31 a month">
+
+    <label for="f-desc">Description — what happened, or how it works</label>
+    <textarea id="f-desc" name="description" required
+      placeholder="Tell it like it happened: what you asked, what your Muse did, what it took. For a template or automation, include the full text of the recipe or script here — it will be security-validated before anything is posted."></textarea>
+
+    <label for="f-proof">Numbers / proof (for achievements)</label>
+    <input type="text" id="f-proof" name="proof"
+           placeholder="e.g. $372 saved — airline credit, confirmation in my email, March 2026">
+
+    <div class="check">
+      <input type="checkbox" id="f-permission" name="permission" required>
+      <label for="f-permission">You may contact me about this submission, and — if it is selected —
+      quote or feature it on this site and in the book's community materials with my permission.
+      I understand submissions are reviewed and validated before anything is published, and that
+      submitting does not guarantee publication.</label>
+    </div>
+
+    <button class="btn" type="submit">Send submission for review</button>
+    <p id="form-status" role="status"></p>
+  </form>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Book of Muse is the home of <em>Use Muse</em>, an unofficial book. It is not affiliated with, sponsored,
+    or endorsed by Meta Platforms, Inc. Muse is a product and trademark of Meta Platforms, Inc.; this site uses
+    the name only to describe the book's subject. No Meta or Muse logos are used here.</p>
+    <p>We only use your contact details to respond to your submission.</p>
+  </div>
+</footer>
+<script src="submit.js"></script>
+</body>
+</html>

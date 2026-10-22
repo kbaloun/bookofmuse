@@ -1,0 +1,84 @@
+/* Book of Muse — bookofmuse.com — plain CSS, no frameworks, no trackers */
+:root{
+  --blue:#2F7FD0;        /* author's colour — chart palette, locked */
+  --amber:#F2A93B;       /* the Muse's colour — chart palette, locked */
+  --ink:#1c2430;
+  --paper:#fffdf7;
+  --card:#ffffff;
+  --muted:#5a6572;
+  --line:#e6dfcd;
+  --radius:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:Georgia,'Iowan Old Style','Times New Roman',serif;
+  font-size:20px; line-height:1.55;
+}
+h1,h2,h3,.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+h1{font-size:2.6rem;line-height:1.1;margin:.2em 0 .3em}
+h2{font-size:1.9rem;line-height:1.2;margin:1.4em 0 .5em}
+h3{font-size:1.25rem;margin:1em 0 .3em}
+a{color:var(--blue)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.site{
+  background:var(--ink); color:#fff; padding:18px 0;
+}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;justify-content:space-between}
+.brand{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:800;font-size:1.35rem;color:#fff;text-decoration:none}
+.brand span{color:var(--amber)}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem}
+nav a:hover{color:var(--amber)}
+.hero{background:linear-gradient(160deg,#fdf3d8 0%,#fffdf7 55%);border-bottom:4px solid var(--amber)}
+.hero .wrap{display:flex;gap:36px;flex-wrap:wrap;padding:44px 20px}
+.hero .copy{flex:1 1 420px}
+.hero img.cover{width:270px;max-width:80vw;border-radius:10px;box-shadow:0 14px 34px rgba(28,36,48,.28);align-self:flex-start}
+.tagline{font-size:1.35rem;font-style:italic}
+.byline{color:var(--muted)}
+.btn{
+  display:inline-block;background:var(--blue);color:#fff;text-decoration:none;
+  font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;
+  padding:13px 22px;border-radius:999px;margin:8px 10px 8px 0;border:0;cursor:pointer;font-size:1.05rem;
+}
+.btn.amber{background:var(--amber);color:var(--ink)}
+.btn:hover{filter:brightness(1.08)}
+.proof{
+  display:flex;gap:18px;flex-wrap:wrap;margin:26px 0;
+}
+.proof .stat{
+  background:var(--card);border:2px solid var(--line);border-top:6px solid var(--blue);
+  border-radius:var(--radius);padding:16px 20px;flex:1 1 200px;
+}
+.proof .stat:nth-child(2){border-top-color:var(--amber)}
+.proof .stat:nth-child(3){border-top-color:var(--blue)}
+.stat .num{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.9rem;font-weight:800}
+.stat .lbl{color:var(--muted);font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;margin:20px 0 8px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:20px 22px}
+.card h3{margin-top:0}
+.card .verb{color:var(--blue)}
+.rule{
+  background:#eef5fd;border:2px solid var(--blue);border-radius:var(--radius);
+  padding:20px 24px;margin:26px 0;
+}
+.rule strong{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.recipe{
+  background:#1c2430;color:#f5ecd7;border-radius:10px;padding:16px 18px;
+  font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.95rem;line-height:1.5;white-space:pre-wrap;
+}
+form label{display:block;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:600;margin:18px 0 6px}
+form input[type=text],form input[type=email],form select,form textarea{
+  width:100%;padding:12px 14px;font-size:1.05rem;border:2px solid #cfc7ae;border-radius:10px;background:#fff;
+  font-family:inherit;
+}
+form textarea{min-height:150px}
+.check{display:flex;gap:12px;align-items:flex-start;margin:18px 0}
+.check input{width:24px;height:24px;margin-top:4px;flex:none}
+.check label{margin:0;font-weight:400}
+.notice{background:#fdf3d8;border:2px solid var(--amber);border-radius:var(--radius);padding:18px 22px;margin:22px 0}
+#form-status{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;margin:14px 0}
+footer.site{border-top:3px solid var(--line);margin-top:50px;padding:28px 0 44px;color:var(--muted);font-size:.92rem}
+table.spec{border-collapse:collapse;width:100%;margin:14px 0}
+table.spec td,table.spec th{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
+@media (max-width:640px){ h1{font-size:2rem} body{font-size:18px} nav a{margin-left:12px} }
