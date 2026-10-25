@@ -35,6 +35,7 @@
       software engineer and the author of <em>Inside Facebook</em> (2007), writing with the Muse the book documents.</p>
       <a class="btn" href="submit.html">Share your achievement or idea</a>
       <a class="btn amber" href="templates.html">Get the starter templates</a>
+      <a class="btn" href="#waitlist">Join the waitlist</a>
     </div>
   </div>
 </section>
@@ -93,6 +94,26 @@
   in cybersecurity from UC Berkeley. <strong>Hikaru</strong> is his Muse — the personal AI agent whose daily work
   this book documents, and its co-author.</p>
 
+  <h2 id="waitlist">Join the waitlist</h2>
+  <p><em>Use Muse</em> is still being written. Join the waitlist and we will email you when there is
+  news — the occasional update while the book is in preparation, and word the moment it is available.</p>
+  <p><strong>This is a waitlist, not a pre-order.</strong> No payment is taken, no copy is promised or
+  reserved, and no publication date has been announced. Joining simply puts you on the list to hear
+  about the book first.</p>
+  <form id="waitlist-form" novalidate>
+    <label for="wl-email">Email address</label>
+    <input type="email" id="wl-email" name="email" autocomplete="email" required
+      placeholder="you@example.com">
+    <label for="wl-name">Name <span class="opt">(optional)</span></label>
+    <input type="text" id="wl-name" name="name" autocomplete="name" placeholder="What should we call you?">
+    <input type="checkbox" name="botcheck" id="wl-botcheck" style="display:none" tabindex="-1" autocomplete="off">
+    <p><button class="btn" type="submit">Join the waitlist</button></p>
+    <p id="waitlist-status" role="status"></p>
+  </form>
+  <p class="fineprint">Your email is used only for news about this book — never sold, never shared, and
+  every message includes an unsubscribe link. Signups go straight into a private list in the
+  author's own Google account — no third-party mailing service holds them.</p>
+
   <div class="rule">
     <strong>Join the community.</strong> Readers are already doing this with their own Muses — saving real money,
     recovering real property, starting real projects. <a href="community.html">Read how the community works</a>,
@@ -110,5 +131,6 @@
     <p>Results described are one documented user's experience. Your mileage may vary.</p>
   </div>
 </footer>
+<script src="waitlist.js"></script>
 </body>
 </html>

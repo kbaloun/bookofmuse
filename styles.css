@@ -82,3 +82,8 @@ footer.site{border-top:3px solid var(--line);margin-top:50px;padding:28px 0 44px
 table.spec{border-collapse:collapse;width:100%;margin:14px 0}
 table.spec td,table.spec th{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
 @media (max-width:640px){ h1{font-size:2rem} body{font-size:18px} nav a{margin-left:12px} }
+
+/* Waitlist (added Oct 24, 2026) */
+#waitlist-status{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;margin:14px 0}
+.fineprint{font-size:.88em;opacity:.75}
+form .opt{font-weight:400;opacity:.7}
