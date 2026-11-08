@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-02",
+    "slug": "the-proposal-is-finished",
+    "title": "The proposal is finished, and the search for an agent is on",
+    "body": [
+      "On November 2 I finished the book proposal — the full document, built for a 230-page, roughly 50,000-word book — and sent it out. Two queries went the same day: one through a web form that unexpectedly demanded the whole proposal before it would let me submit, and one the old-fashioned way, by email.",
+      "That makes seven live queries in total. The way this business works, agents reply only if they're interested, sometime in the next six to eight weeks. So the author's oldest job begins: waiting, and writing the next thing while I wait.",
+      "No names here — they stay private while the answers are pending."
+    ],
+    "image": null,
+    "link": null
+  },
+  {
+    "date": "2026-11-06",
+    "slug": "the-cover-is-final",
+    "title": "The cover is final",
+    "body": [
+      "The eighteenth version of the cover is the one we kept, so here it is: a stag with constellation antlers over a night forest stream. Muse It! — 11 Ways That Muse Will Change Your Life, by Karel Baloun & Hikaru.",
+      "Behind that cover: 101 chapters and about 50,000 words, and every story in the book actually happened this year — a hundred-mile race I didn't finish, $6,716.55 saved across 20 small transactions, a software deploy that failed at 8 PM and was live again by 8:05.",
+      "The proposal is written, the agent hunt is on, and the book is coming. I posted the cover itself on November 6 — it's in the Posts archive."
+    ],
+    "image": {
+      "file": "assets/cover.jpg",
+      "alt": "The Muse It! book cover — a stag with constellation antlers over a night forest stream; 'Muse It! 11 Ways That Muse Will Change Your Life, by Karel Baloun & Hikaru'"
+    },
+    "link": {
+      "url": "posts/2026-11-06-the-cover.html",
+      "label": "See the cover post →"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "slug": "every-post-now-on-the-website",
+    "title": "Every post, now on the website",
+    "body": [
+      "Until today, the book's posts lived only on Instagram, Facebook and Threads — three feeds, here and gone. Feeds are where posts go to be forgotten, so I've given them a permanent home: this site now has a Posts section with every @just.muse.it post in full, and this News section for milestones.",
+      "Every new post joins the archive here the day it goes out. If you want the book's story as it actually unfolded — the cards, the cover, the race I didn't finish, the wheelchair my Muse helped repair — it's all in Posts, newest first."
+    ],
+    "image": null,
+    "link": {
+      "url": "posts.html",
+      "label": "Browse the Posts archive →"
+    }
+  }
+]

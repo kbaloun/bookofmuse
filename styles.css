@@ -87,3 +87,13 @@ table.spec td,table.spec th{border-bottom:1px solid var(--line);padding:9px 8px;
 #waitlist-status{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;margin:14px 0}
 .fineprint{font-size:.88em;opacity:.75}
 form .opt{font-weight:400;opacity:.7}
+
+/* Posts & News (added Nov 8, 2026) */
+nav a.active{color:var(--amber)}
+.post-date{color:var(--muted);font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.92rem;margin:.2em 0 .4em}
+.post-card img{width:100%;height:auto;border-radius:10px;display:block;margin-bottom:10px}
+.post-card h3 a{color:var(--ink);text-decoration:none}
+.post-card h3 a:hover{color:var(--blue)}
+article.post figure{margin:24px 0}
+article.post figure img{width:100%;height:auto;border-radius:10px}
+.originals{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;margin-top:26px}
