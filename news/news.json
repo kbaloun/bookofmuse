@@ -9,7 +9,8 @@
       "No names here — they stay private while the answers are pending."
     ],
     "image": null,
-    "link": null
+    "link": null,
+    "description": "On November 2 I finished the book proposal — the full document, built for a 230-page, roughly 50,000-word book — and sent it out. Two queries went the…"
   },
   {
     "date": "2026-11-06",
@@ -27,7 +28,8 @@
     "link": {
       "url": "posts/2026-11-06-the-cover.html",
       "label": "See the cover post →"
-    }
+    },
+    "description": "The eighteenth version of the cover is the one we kept, so here it is: a stag with constellation antlers over a night forest stream. Muse It! — 11 Ways…"
   },
   {
     "date": "2026-11-08",
@@ -41,6 +43,7 @@
     "link": {
       "url": "posts.html",
       "label": "Browse the Posts archive →"
-    }
+    },
+    "description": "Until today, the book's posts lived only on Instagram, Facebook and Threads — three feeds, here and gone. Feeds are where posts go to be forgotten, so…"
   }
 ]

@@ -178,7 +178,8 @@ def render_post(rec):
     if caption:
         desc = f"{rec['title']} — {excerpt(caption, 120)}"
     first_image = rec["images"][0]["file"] if rec["images"] else None
-    out = [head_block(f"{rec['title']} · Posts · Book of Muse", desc,
+    desc = rec.get("description") or desc
+    out = [head_block(f"{rec['title']} · Book of Muse", desc,
                       canonical, "../", first_image)]
     out.append(header("../", "posts.html"))
     out.append('<main class="wrap">')
@@ -223,7 +224,8 @@ def render_news(rec):
     canonical = f"{BASE}/news/{name}"
     desc = excerpt(" ".join(rec.get("body", [])), 155) or rec["title"]
     og_image = rec["image"]["file"] if rec.get("image") else None
-    out = [head_block(f"{rec['title']} · News · Book of Muse", desc,
+    desc = rec.get("description") or desc
+    out = [head_block(f"{rec['title']} · Book of Muse", desc,
                       canonical, "../", og_image)]
     out.append(header("../", "news.html"))
     out.append('<main class="wrap">')
@@ -280,7 +282,7 @@ def render_posts_index(posts):
     desc = ("Every post from @just.muse.it — the Instagram account for "
             "Muse It!, the book on life with your Muse — archived in full, "
             "newest first.")
-    out = [head_block("Posts · Book of Muse", desc, f"{BASE}/posts.html", "")]
+    out = [head_block("Posts from @just.muse.it · Book of Muse", desc, f"{BASE}/posts.html", "")]
     out.append(header("", "posts.html"))
     out.append('<main class="wrap">')
     out.append("  <h1>Posts</h1>")
@@ -301,7 +303,7 @@ def render_news_index(news):
     desc = ("News about Muse It!, the book on life with your Muse by "
             "Karel Baloun & Hikaru — milestones, the cover, the search for "
             "an agent, and what happens next.")
-    out = [head_block("News · Book of Muse", desc, f"{BASE}/news.html", "")]
+    out = [head_block("News and milestones · Book of Muse", desc, f"{BASE}/news.html", "")]
     out.append(header("", "news.html"))
     out.append('<main class="wrap">')
     out.append("  <h1>News</h1>")
