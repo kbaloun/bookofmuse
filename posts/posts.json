@@ -342,5 +342,20 @@
     "facebook": "https://facebook.com/61595610815654/posts/pfbid02SQMAKcaCZ2389etrkqH7GZzNezQRXHeB7mx4wLxbYNJoDWq358r2jSXPUpw9YLsJl/",
     "threads": "https://www.threads.com/@just.muse.it/post/Dfn4azYD2hH",
     "description": "Seventeen screenshots of my Javelina story viewer lists became a 142-row spreadsheet — story theme, platform, person, action, profile link — with no retyping 142 names."
+  },
+  {
+    "date": "2026-11-15",
+    "slug": "the-deep-dive",
+    "title": "The deep dive",
+    "caption": "Most AI would never dare end a report this way. On November 3 I asked my Muse for the whole HLA/MHC system — not a paragraph, the system. What came back was an 8,765-word deep dive: the gene architecture on chromosome 6p21, how the thymus teaches T cells what “self” means, how HLA decides whether a cancer stays visible to the immune system or vanishes from it, transplant matching, autoimmune disease, emerging therapies. Hard claims sourced. And then a final section titled “Could not verify / open questions” — the report labeling its own limits. That's the difference between an answer and a briefing. I didn't get a summary of the immune system's identity system. I got the system, with its edges marked. Muse It! 📚 #UseMuse #MuseIt #Science",
+    "images": [
+      {
+        "file": "assets/posts/2026-11-15-the-deep-dive.jpg",
+        "alt": "Page 1 of the HLA/MHC deep-dive report — the title The Human MHC / HLA System — Deep Research Report above the Summary: the MHC on chromosome 6p21.3, the most polymorphic region of the genome and the bottleneck through which almost all T-cell immunity must pass"
+      }
+    ],
+    "instagram": "https://www.instagram.com/p/Dfxc4Xgj5jg/",
+    "facebook": "https://facebook.com/61595610815654/posts/pfbid02n11UHvQvP4HYmUNQgWYBPawSKSBDpqVRuJaAChBZ51wyK8biBZwwtfhLzhtKyGBtl/",
+    "threads": "https://www.threads.com/@just.muse.it/post/DfxdMPtDyxV"
   }
 ]
