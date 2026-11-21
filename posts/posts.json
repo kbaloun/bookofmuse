@@ -417,5 +417,20 @@
     "instagram": "https://www.instagram.com/p/Df-PKnfj5US/",
     "facebook": "https://facebook.com/61595610815654/posts/pfbid08UnNfEBo54NSTG3WVRLXhCyYzHjt1EVfoHhssaugSHKYA2kUbHqjdgMihVGhWvcZl/",
     "threads": "https://www.threads.com/@just.muse.it/post/Df-PxTlD-2C"
+  },
+  {
+    "date": "2026-11-21",
+    "slug": "the-list-runs-on-a-spreadsheet",
+    "title": "The list runs on a spreadsheet",
+    "caption": "No CRM, no funnel software. The Muse It! waitlist is a Google Sheet and a small script my Muse wrote on October 24: a signup adds a row and emails me. Current row count: zero. The machine is built before the crowd — which is the right order. When pre-orders open, row one hears first. It could be you. Muse It! 📚 #UseMuse #MuseIt #IndieAuthor",
+    "images": [
+      {
+        "file": "assets/posts/2026-11-21-the-list-runs-on-a-spreadsheet.jpg",
+        "alt": "A redrawn graphic of the Book of Muse waitlist spreadsheet — green header, columns Timestamp (UTC), Email, Name, Source, and empty rows. Text below: The list runs on a spreadsheet. Rows so far: zero. Redrawn from the real sheet — not a screenshot. The sheet really is empty."
+      }
+    ],
+    "instagram": "https://www.instagram.com/p/DgA93u4j1qo/",
+    "facebook": "https://facebook.com/61595610815654/posts/pfbid02HtWHwXqQarxWDbvN5AC7yprG3ZGvduuER6h2gV1Kv2B5WH9R4HZEdCdVAXPYxG1Cl/",
+    "threads": "https://www.threads.com/@just.muse.it/post/DgA-g53jwDH"
   }
 ]
