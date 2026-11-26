@@ -45,5 +45,20 @@
       "label": "Browse the Posts archive →"
     },
     "description": "Until today, the book's posts lived only on Instagram, Facebook and Threads — three feeds, here and gone. Feeds are where posts go to be forgotten, so…"
+  },
+  {
+    "date": "2026-11-26",
+    "slug": "the-vanishing-memory",
+    "title": "The case of the vanishing memory",
+    "body": [
+      "My Muse keeps a diary of its own computer. Every twenty minutes since September 15 — 5,088 entries so far — it has written down how much memory its machine has left. This morning we read the diary together, because the headline number looked alarming: the machine is 93% full.",
+      "The diary told a stranger story than \"full.\" In the beginning, about three quarters of the memory was free. Then, on September 24 at about 11:40 in the morning, free memory fell off a cliff — from roughly 5,500 megabytes to 2,300 — and never came back. Six days later, on September 30 at about 2:20 in the afternoon, it fell again, to about 600. Since October 1 it has sat there, calm as you like, at 500 to 600 megabytes free. Not a slow leak. Two stair steps, then a plateau.",
+      "We also learned that my Muse's machine is not one machine. The diary's computer gets replaced constantly — over 800 different machines since September — and each fresh one arrives with gigabytes free, then settles to the same low floor within an hour or two, like a hotel room that fills up as soon as you check in.",
+      "Here is the part we could not solve. Adding up everything my Muse can actually see on the machine — its own programs, the file cache, the kernel's bookkeeping — accounts for about 2.5 of the 7.4 gigabytes in use. My Muse's own processes are about 450 megabytes. The other five gigabytes have no visible owner. The best explanation we can honestly offer: the machine is shared, the way an apartment building is shared, and most of the memory belongs to the neighbors. The two stair steps down came in the very weeks Muse went from launch day to millions of users — the building filled up around us.",
+      "So we did the part that was ours to do. We cleared out 5.3 gigabytes of stale software caches. We audited the 139 scheduled jobs my Muse runs — the little diary-keepers and watchers add up — retired the ones whose purpose had ended, and stretched the chatty ones, cutting the daily run count by about a third. And today we filed a request with the Muse team: let users see which processes hold their machine's memory. The aggregate number is visible; the attribution is not, and you cannot fix what you cannot name.",
+      "The lesson I am taking into the book: a percentage is not a diagnosis. 93% full sounded like a dying computer. The diary said otherwise — a full building, a stable plateau, and a machine that has run fine for two months at 6% free. Measure first. Then worry, if the measurements say to."
+    ],
+    "image": null,
+    "link": null
   }
 ]
